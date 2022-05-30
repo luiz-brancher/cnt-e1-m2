@@ -293,7 +293,7 @@ $('#resultado').click(()=>{
 $('#cards-iniciar').click(()=>{
     $('.modal-inicio').fadeOut()
     $('.card').addClass('selecionado')
-    window.setTimeout(()=>{$('.card').removeClass('selecionado')}, 2000)
+    window.setTimeout(()=>{$('.card').removeClass('selecionado')}, 3500)
 })
 
 $('.card').click(function() {
@@ -307,7 +307,7 @@ $('.card').click(function() {
                 ||
                 ($('.selecionado').hasClass('energia-vento')&&$('.selecionado').hasClass('problema-vento'))
             ){
-            console.log('ai sim familia')
+            
             window.setTimeout(()=>{
                 $('.selecionado').addClass('correto')
                 $('.card').removeClass('selecionado')
@@ -316,7 +316,7 @@ $('.card').click(function() {
         } else {
             window.setTimeout(()=>{
                 $('.card').removeClass('selecionado')
-            }, 1500)
+            }, 2500)
             
         }
 
