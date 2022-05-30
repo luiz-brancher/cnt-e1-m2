@@ -1,0 +1,1249 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Ciências da Natureza: Energia e sociedade</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/fa/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+
+    <link rel="stylesheet" href="assets/print/print.css">
+    <link rel="stylesheet" href="assets/styles.css">
+
+
+</head>
+
+<body class="bg-sesc">
+    <div class="preloader">
+        <div class="anim"></div>
+        <h1>Aguarde enquanto o conteúdo é carregado.</h1>
+    </div>
+    
+    <div id="bg">
+        <div id="tela-inicial">
+            <img src="assets/objetos/tela inicial/telainicial-titulo.png" alt="" class="titulo">
+            <img src="assets/objetos/ajustes/subtitulo.png" alt="" class="subtitulo">
+            <img class="fundo" src="assets/objetos/tela inicial/telainicial-chao.png" alt="" id="chao">
+            <img class="fundo rellax" data-rellax-speed="2" src="assets/objetos/tela inicial/telainicial-montanhas.png" alt="" id="fundo">
+            <img class="fundo" src="assets/objetos/tela inicial/telainicial-cidade.png" alt="" id="cidade">
+            <img class="fundo" src="assets/objetos/tela inicial/telainicial-postes.png" alt="" id="postes">
+            <img class="fundo" src="assets/objetos/tela inicial/telainicial-usina.png" alt="" id="usina">
+            <img class="fundo" src="assets/objetos/tela inicial/telainicial-eletrica.png" alt="" id="eletrica">
+            <img src="assets/objetos/tela inicial/telainicial-nuvem.png" alt="" class="nuvem rellax" data-rellax-speed="3" id="nuvem-1">
+            <img src="assets/objetos/tela inicial/telainicial-nuvem2.png" alt="" class="nuvem rellax" data-rellax-speed="3" id="nuvem-2">
+            <img src="assets/objetos/tela inicial/telainicial-nuvem3.png" alt="" class="nuvem rellax" data-rellax-speed="3" id="nuvem-3">
+            <img src="assets/objetos/tela inicial/helice.gif" alt="" id="helice-1">
+            <img src="assets/objetos/tela inicial/helice.gif" alt="" id="helice-2">
+            <img src="assets/objetos/tela inicial/helice.gif" alt="" id="helice-3">
+            <img class="rellax" data-rellax-speed="3" id="fumaca-1" src="assets/objetos/tela inicial/smoke60fps.gif" alt="">
+            <img data-rellax-speed="3" id="fumaca-2" src="assets/objetos/tela inicial/smoke60fps.gif" alt="">
+            <img src="assets/objetos/tela inicial/raios.gif" alt="" id="eletricidade-1">
+            <img src="assets/objetos/tela inicial/raios.gif" alt="" id="eletricidade-2">
+
+            
+                <div class="links">
+                    <div class="btn-row">
+                        <button class="btn index-1" data-rellax-speed="2"></button>
+                        <button class="btn index-2" data-rellax-speed="3"></button>
+                    </div>
+                    <div class="btn-row">
+                        <button class="btn index-3" data-rellax-speed="2"></button>
+                        <!-- <button class="btn index-4" data-rellax-speed="4"></button> -->
+                        <!-- <button class="btn index-5" data-rellax-speed="3"></button> -->
+                        <button class="btn index-6" data-rellax-speed="5"></button>
+                    </div>
+                    <div class="btn-row"><button class="btn index-7" data-rellax-speed="2"></button></div>
+                </div>
+            
+        </div>
+    </div>
+
+    <div id="tela-inicial-mobile">
+        <img src="assets/objetos/tela inicial/telainicial-titulo.png" alt="" class="img-fluid titulo-mobile">
+            <div class="btn-row">
+                <button class="btn index-1">1. Circuitos Elétricos Residenciais</button>
+                <button class="btn index-2">2. Energia para a Vida</button>
+                <button class="btn index-3">3. O que é Energia?</button>
+                <!-- <button class="btn index-4">4. Geração de Energia do Brasil</button> -->
+                <!-- <button class="btn index-5">5. Energias Renováveis</button> -->
+                <button class="btn index-6">6. Recapitulando</button>
+                <button class="btn index-7">7. Referências</button>
+            </div>
+        
+    </div>
+    
+    <!-- MARCA D´ÁGUA -->
+    <img src="assets/img/logo_sesc_horizontal.svg" id="marcadaguaLogo">
+
+    
+    <!-- Section principal deve ter o booklet, pois faz parte do print.js -->
+    <section id="booklet">
+        <header id="topo" class="sesc d-print-none">
+            <img src="assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
+        </header>
+        <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
+        <header class="titulo-conteudo mb-0 print">
+            <div class="container" style="padding-top:1px">
+                <!--titulo do curso para o print e leitor de tela-->
+                <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Ciências da Natureza: Etapa 1 - Módulo II</h1>
+                <div class="row g-0 pb-4 pt-4">
+                    <div class="col-9 sr-only-focusable d-flex flex-column justify-content-center align-items-start">
+                        <!-- <h2>Matemática</h2> -->
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-center align-items-end">
+                        <button data-pdf="true" name="button" class="bt-print bto-imprimir d-print-none"><i
+                                class="fas fa-print "></i> imprimir</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="paginas">
+            <div class="pb-4 pagina">
+               <div class="conteudo" id="conteudo-1">
+                    <div class="container">
+                        <!--Título do conteúdo-->
+                        <!--Conteúdo a partir daqui-->
+                      
+                        <div class="row">
+                            <div class="col-12">
+                                
+                                <h2>Energia para a vida </h2>
+                                <p>A vida humana é pautada por diferentes necessidades, tais como: dormir, respirar e, como visto nos estudos até aqui, se alimentar. Esses atos são tão naturais que não são percebidos no dia a dia. Pense em quando falta água ou eletricidade na sua casa: enquanto esses serviços estão disponíveis, não se nota sua existência, mas, na falta deles, a vida se torna caótica. Não há energia elétrica para aquecer o banho, para iluminar as residências nem para utilizar equipamentos eletrônicos, como carregadores de celular, por exemplo. </p>
+                                <p>Desde os primórdios, o ser humano, questiona, problematiza e debate diversos temas, entre eles, a eletricidade, responsável por tantas facilidades na contemporaneidade.  </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="bloco estilo1">
+                        <div class="container">
+                            <div class="hq">
+                                <div class="hq-row">
+                                    <div class="hq-img">
+                                        <img class="img-fluid" src="assets/objetos/imagens/EJA_CienciasNat_Quadro01.png" alt="">
+                                    </div>
+                                    <div class="hq-text">
+                                        <p>A história da eletricidade teve origem na Grécia Antiga, no século VI a.C., quando o filósofo Tales de Mileto descobriu uma resina vegetal fossilizada chamada âmbar, a esfregou em peles de animais e observou a atração de objetos leves, como palha, lascas de madeira e penas. </p>
+                                    </div>
+                                </div>
+                                <div class="hq-row row-reverse">
+                                    <div class="hq-text">
+                                        <p>A pesquisa de Tales foi continuada por várias pessoas, como William Gilbert, que, em 1600, chamou esses diferentes corpos que se atraíram de corpos elétricos.</p>
+                                    </div>
+                                    <div class="hq-img"><img class="img-fluid" src="assets/objetos/imagens/EJA_CienciasNat_Quadro02.png" alt=""></div>
+                                </div>
+                                <div class="hq-row">
+                                    <div class="hq-img"><img class="img-fluid" src="assets/objetos/imagens/EJA_CienciasNat_Quadro03.png" alt=""></div>
+                                    <div class="hq-text">
+                                        <p>Em 1730, o físico britânico Stephen Gray descobriu que, além de carregar objetos por fricção (atrito), eles também podem ser carregados por contato (colocando um objeto carregado em contato com um objeto neutro). </p>
+                                    </div>
+                                </div>
+                                <div class="hq-row row-reverse">
+                                    <div class="hq-text">
+                                        <p>A partir dessas observações, Gray desenvolveu o conceito da existência de materiais que conduzem eletricidade com eficiência ou que dificultam a passagem de eletricidade e os chamou de <b>condutores elétricos e isolantes</b>, respectivamente. Com isso, Gray viu a possibilidade de transportar eletricidade de um corpo para outro.</p>
+                                    </div>
+                                    <div class="hq-img"><img class="img-fluid" src="assets/objetos/imagens/EJA_CienciasNat_Quadro04.png" alt=""></div>
+                                </div>
+                            </div>
+                            <figcaption class="d-print-none">
+                                Figura 1 – História da eletricidade<br>
+                                Fonte: Sesc EJA EAD (2022)
+                            </figcaption>
+                        </div>
+                        <div class="parallax" id="parallax-9">
+                            <div class="opacidade"></div>
+                        </div>
+                    </div>
+                  
+                 
+                  
+                    <div class="container">
+                        <div class="caixa icone saiba-mais">
+                            <p>Quando dois materiais de diferentes composições são atritados, um perde <a data-bs-toggle="tooltip" class="tooltip-link" title="É uma das partes que compõem o átomo que, por sua vez, é uma parte que compõe tudo que é matéria. Os elétrons no átomo são a parte carregada de energia negativa, assim como são a parte móvel do átomo, que se movimenta para interagir com outros materiais, e esse movimento acontece na eletricidade. Você estudará as partes do átomo e suas interações mais adiante.  ">elétrons</a> para o outro. Esse processo é chamado de eletrificação triboelétrica. O processo de eletrificação envolve a criação de um desequilíbrio no número de <a data-bs-toggle="tooltip" class="tooltip-link" title="Partícula elementar da estrutura atômica, estando presente no núcleo atômico. Sua carga elétrica é positiva (símbolo: p).">prótons</a> e elétrons em qualquer objeto.  </p>
+                            <figure>
+                                <img class="img-fluid" src="assets/objetos/gifs/pente2x.gif" alt="Figura animada de uma pessoa passando o pente no cabelo. Após isso, aproxima o pente a pedaços de papel picados, então os papéis são atraídos pela eletrização e grudam no pente. ">
+                            </figure>
+                        </div>
+                            
+                            <h3>Faça o teste!</h3>
+                            <p>É possível verificar esse conceito de eletrização por atrito atualizando o experimento realizado por Tales de Mileto, com a utilização de um pente e papel picado. Conforme mostra a animação, passe o pente em seus cabelos ou em um casaco de lã e, em seguida, aproxime-o dos papéis picados. Você observará que os pedacinhos de papel se aproximam do pente.  </p>
+                        </div>
+                        <div class="parallax" id="parallax-8">
+                            <div class="opacidade"></div>
+                        </div>
+                        <div class="container">
+                            <h3>Por que isso ocorre? </h3>
+                            <p>Por desequilíbrio no número de prótons (partículas carregadas positivamente) e elétrons (partículas com carga elétrica negativa), fazendo com que haja uma atração entre os objetos, pois objetos com cargas diferentes se atraem. É exatamente o que diz no ditado popular “os opostos se atraem”.  </p>
+                            <p>Observe a figura a seguir e compreenda como é possível essa aproximação entre os objetos. </p>
+    
+                            
+                            <figure>
+                                <div class="gif-carga">
+                                    <img class="d-print-none" src="assets/objetos/gifs/cargas-diferentes2x.gif" alt="A animação mostra que cargas de sinais diferentes, positivo e negativo, se atraem. Já nas cargas de sinais iguais positivos e nas cargas de sinais iguais negativos ocorre repulsão.">
+                                    <img class="d-print-none" src="assets/objetos/gifs/carga-negativas2x.gif" alt="A animação mostra que cargas de sinais diferentes, positivo e negativo, se atraem. Já nas cargas de sinais iguais positivos e nas cargas de sinais iguais negativos ocorre repulsão.">
+                                    <img class="d-print-none" src="assets/objetos/gifs/cargas-positivas2x.gif" alt="A animação mostra que cargas de sinais diferentes, positivo e negativo, se atraem. Já nas cargas de sinais iguais positivos e nas cargas de sinais iguais negativos ocorre repulsão.">
+                                    <img src="assets/objetos/ajustes/cargas1-print.png" alt="" class="d-none d-print-block">
+                                    <img src="assets/objetos/ajustes/cargas2-print.png" alt="" class="d-none d-print-block">
+                                    <img src="assets/objetos/ajustes/cargas3-print.png" alt="" class="d-none d-print-block">
+                                </div>
+                                
+                            </figure>
+                            
+                        
+                    </div>
+    
+                    <div class="bloco estilo2">
+                                <div class="container">
+                                    <p>A energia elétrica é transportada e utilizada para realizar grande parte das atividades do dia a dia, tais como: </p>
+
+                                    <div class="obj-casa">
+                                        <p id="atv-1">Tomar um banho quente (chuveiro elétrico)</p> 
+
+                                        <p id="atv-2">Cozinhar (forno/micro-ondas)</p> 
+                                    
+                                        <p id="atv-3">Iluminar um espaço</p> 
+                                    
+                                        <p id="atv-4">Carregar e usar aparelhos eletrônicos (celular, televisão, geladeira)</p> 
+                                    </div>
+                                    <figcaption class="d-print-none">
+                                        Figura 2 – Uso de energia elétrica no dia a dia<br>
+                                        Fonte: Sesc EJA EAD (2022)
+                                    </figcaption>
+                                    <p>É difícil pensar em viver sem energia elétrica. Você já imaginou como seria a sociedade se a energia elétrica nunca tivesse sido descoberta? Provavelmente, muito do que existe hoje jamais teria sido inventado e a percepção sobre o mundo também seria diferente.</p>
+                                    <p>Todavia a energia elétrica existe e traz muitos benefícios, mas a sua existência e a necessidade de economizar só são percebidas quando a conta de luz chega todos os meses. Apesar de onerar o orçamento, é necessário pagar pelo serviço consumido.</p>
+                                </div>
+                    </div>
+                    
+                    <div class="container"><br><br>
+                                <img src="assets/objetos/imagens/layout_EJA_pessoa_pensando_1.png" alt="" class="avatar">
+                                <h3>Mas como as empresas de energia conseguem saber exatamente o que é consumido?</h3>
+                                <p>Para responder a essa pergunta, é preciso entender como a energia elétrica funciona nas residências. </p>
+                                <div class="btn-container d-print-none d-print-none">
+                                    <a class="nav-btn btn-inicial">Tela Inicial</a>
+                                    <a class="nav-btn avancar-1">2. Circuitos elétricos residenciais ></a>
+                                </div>
+                    </div>
+                            
+                    
+                </div>
+                <div class="conteudo" id="conteudo-2">
+                <div class="container">
+                    <!--Título do conteúdo-->
+                    <!--Conteúdo a partir daqui-->
+                   
+                    <div class="row">
+                        <div class="col-12">
+                            
+                            <h2>Circuitos elétricos residenciais</h2>
+                            <p>Para funcionar, cada aparelho elétrico precisa ter seus terminais ligados à tomada da rede elétrica. A tomada elétrica, por sua vez, fica ligada ao quadro de distribuição. Esta, então, se liga à caixa central (conhecida como padrão). Finalmente, a caixa padrão se liga a toda a rede de distribuição da companhia elétrica. Observe, a seguir, um exemplo de ligação residencial. </p>
+                            
+                            <figure>
+                                <img class="gif d-print-none" src="assets/objetos/ajustes/casaloop.gif" alt="">
+                                <img src="assets/objetos/ajustes/casa-print.png" alt="" class="d-none d-print-block">
+                            </figure>
+                            <p>Os fios da rede de distribuição de energia que vêm pelas ruas chegam à caixa de entrada, e nesses fios existe o que chamamos de <b>tensão</b> ou <b>d.d.p</b>. diferença de potencial. É ela que força o movimento dos elétrons A unidade de medida da tensão é volts ou simplesmente V.  </p>
+                            <p class="d-print-none">Clique ou toque para visualizar o conteúdo.</p>
+                        </div>
+                        <div class="accordion painel-gaitinha" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Corrente elétrica 
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        O movimento dos elétrons segue um fluxo ordenado, como se fosse uma correnteza de um rio, cujo nome é <b>corrente elétrica</b>, e sua unidade de medida chama-se ampere ou simplesmente A. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Potência elétrica 
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Ao unir as duas informações, multiplicando-as, é obtida a <b>potência elétrica</b>, cuja unidade de medida é o watt ou simplesmente W. A potência elétrica é a energia gasta por determinado aparelho. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Fase e neutro 
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Em uma rede de 127V de tensão, um dos fios é chamado fase e o outro neutro (em alguns lugares do Brasil, a rede pode ser 220V). Em instalações adequadas, os diferentes circuitos (banheiro, sala, quarto) são separados e cada um tem seu disjuntor de proteção no quadro de distribuição. Os dois fios, fase e neutro, são levados a todos os cômodos da casa.  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Quadro de distribuição 
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Cada tomada e cada lâmpada estão ligadas ao quadro de distribuição, em uma configuração denominada circuito paralelo. Nessa configuração, cada aparelho pode funcionar de forma independente dos demais, pois tem um circuito particular ligado diretamente aos fios da rede elétrica que chegam até o padrão.  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Corrente total 
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Naturalmente, quanto mais aparelhos forem ligados à tomada, maior será a corrente total que passa pelos disjuntores do quadro de distribuição. No momento da construção de uma casa, devem ser previstos os tipos de aparelho que serão instalados, para que os dispositivos de proteção sejam adequadamente dimensionados e, com isso, seja possível evitar o superaquecimento dos fios e prevenir acidentes. Isso vale também para a utilização de extensões elétricas.    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Extensões elétricas  
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        É comum a utilização de extensões com muitas tomadas para ligar diversos aparelhos, mas isso deve ser feito com cautela. Equipamentos como aparelhos de TV e de DVD, carregadores de celular, <em>notebooks</em> e impressoras funcionam com correntes elétricas baixas. Portanto, ligar vários desses aparelhos a uma extensão não gera problemas (desde que não seja excedido o limite de corrente especificado pelo fabricante na extensão). Por outro lado, aparelhos como forno de micro-ondas, ferro elétrico de passar roupas, secador de cabelo e aspirador de pó, que requerem correntes altas para seu correto funcionamento, não devem ser ligados nesse tipo de dispositivo, pois pode ocorrer superaquecimento dos terminais da extensão e, consequentemente, um incêndio.     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bloco estilo1">
+                    <div class="parallax" id="parallax-5">
+                        <div class="opacidade"></div>
+                    </div>
+                    <div class="container">
+                        <p>Todas as informações sobre tensão de funcionamento, corrente elétrica e potência estão descritas nos aparelhos, sejam em decalques ou adesivos. Essas informações são importantes para a correta instalação dos aparelhos em suas tomadas, garantindo seu funcionamento com segurança.  </p>
+
+                        <figure>
+                            <img src="assets/objetos/figura-3.png" class="img-fluid" alt="Selo de eficiência energética do órgão Inmetro. Há a classificação energética de uma torneira elétrica, superior a 95%.">
+                            <figcaption class="d-print-none">
+                                Figura 3 – Selo de Eficiência Energética<br>
+                                Fonte: Blog Explicaê (2021) </figcaption>
+                        </figure>
+                        <p>O conhecimento desses dados possibilita que o consumo elétrico dos equipamentos seja previsto. A concessionária de energia, empresa que fornece energia na sua região, instala equipamentos no seu padrão de entrada. Esse equipamento mede a potência consumida por um determinado tempo, chamado de <b>kWh</b>, <b>quilowatt-hora</b>. Verifique um cálculo de consumo a seguir. </p>
+                        
+                        
+                        <img src="assets/objetos/equacao-1.png" class="img-fluid d-block m-auto" alt="Fórmula de consumo de energia. A potência consumida é igual a potência do aparelho, multiplicado pelo tempo em horas de uso por dia, multiplicado pelos dias de uso sobre/dividido por mil.">
+                        <p>Exemplo:  </p>
+                        <p>Imagine que uma lâmpada tenha a seguinte descrição em seu corpo: </p>
+                        <table class="sesc">
+                            <tr>
+                                <td>Potência </td>
+                                <td>15 W </td>
+                            </tr>
+                            <tr>
+                                <td>Fluxo luminoso </td>
+                                <td>1500 Im </td>
+                            </tr>
+                            <tr>
+                                <td>Tensão </td>
+                                <td> 100 – 250 V </td>
+                            </tr>
+                            <tr>
+                                <td>Frequência</td>
+                                <td>50/60 Hz </td>
+                            </tr>
+                        </table>
+                        <figcaption class="d-print-none">
+                            Tabela 1 – Descrição dos dados de uma lâmpada <br>
+                            Fonte: Sesc EJA EAD (2022) 
+                        </figcaption>
+                        
+                        </div>
+                </div>
+                
+              
+                <div class="container">
+                    <p>Agora, suponha que a lâmpada foi instalada na sala de estar e fica ligada diariamente por, pelo menos, oito horas. Com essas informações, é possível calcular seu consumo.  </p>
+                        <p class="d-print-none">Utilize a calculadora para solucionar o exemplo. </p>
+
+                        <div class="obj-calculadora d-print-none">
+                            <div>
+                                <label for="potencia">Potência:</label>
+                                <input id="i-potencia" name="potencia" type="text">
+                            </div>
+                            <div>
+                                <label for="horas">Horas diárias de uso:</label>
+                                <input id="i-horas" name="horas" type="text">
+                            </div>
+                            <div>
+                                <label for="dias">Dias de uso:</label>
+                                <input id="i-dias" name="dias" type="text">
+                            </div>
+                            <button class="btn btn-secondary" id="resultado">Resultado</button>
+                            <p id="texto-resultado">Clique para calcular o consumo mensal</p>
+                        </div>
+
+                        <div class="caixa">
+                            <p>Resolução do exemplo: </p>
+                            <img class="img-fluid d-block ma-2" src="assets/objetos/equacao-2.png" alt="Cálculo com a resolução do exemplo de consumo de uma lâmpada. A potência consumida é igual a 15, multiplicado por 8, multiplicado por 30, dividido por mil, que é igual a três, vírgula, seis quilowatt hora.">
+                            <p>A lâmpada consome 3,6 kWh por mês. </p>
+                        </div>
+
+                        <div class="caixa icone saiba-mais">
+                            <p>A unidade de medida watt é a correta, de acordo com o sistema internacional de unidades, para classificar a potência elétrica. Porém, como o consumo de energia residencial atinge a casa do milhar e a produção de energia atinge a casa dos milhões e bilhões, são usados alguns prefixos. São palavras que vêm antes da unidade e modificam o seu multiplicador. Veja os termos mais comuns a seguir. </p>
+
+                            <table class="sesc">
+                                <tr>
+                                    <th>Unidades com prefixo </th>
+                                    <th>Equivalência em watts </th>
+                                </tr>
+                                <tr>
+                                    <td>1 kW = 1 Quilowatt </td>
+                                    <td>1.000 watts </td>
+                                </tr>
+                                <tr>
+                                    <td>1 MW - 1 Megawatt </td>
+                                    <td>1.000.000 watts </td>
+                                </tr>
+                                <tr>
+                                    <td>1GW = 1 Gigawatt </td>
+                                    <td>1.000.000.000 watts </td>
+                                </tr>
+                            </table>
+                            <figcaption class="d-print-none">
+                                Tabela 2 – Potência elétrica <br>
+                                Fonte: Sesc EJA EAD (2022) 
+                            </figcaption>
+                        </div>
+                        
+                </div>
+                
+                <div class="bloco estilo2">
+                    <div class="parallax" id="parallax-1"><div class="opacidade"></div></div>
+                    <div class="container">
+                        <p>O cálculo até aqui conseguiu medir a potência consumida individualmente de cada aparelho em sua residência. Ao somar todos os consumos, é obtido o montante total que, por sua vez, deve ser cobrado em reais (R$). Em cada região do país, existe uma empresa diferente, que fornece a energia em sua unidade consumidora. Em geral, elas têm dois valores nas contas para cada quilowatt-hora consumido:  </p>
+
+                        <ul>
+                            <li>
+                                <b>Tarifa de Energia (TE)</b> -
+                                A TE cobra o consumo real da sua residência.  
+                            </li>
+                            <li>
+                                <b>Tarifa de Uso do Sistema de Distribuição  (TUSD)</b> - A TUSD fatura o uso dos equipamentos de distribuição que levam a energia até sua casa. Também é faturado sobre o consumo residencial.
+                            </li>
+                        </ul>
+                        
+                        <p>Nesse momento, a concessionária de energia realiza a leitura do equipamento que mediu o consumo de energia elétrica. Essa medida é multiplicada pelo valor do kWh do TE e do TUSD. Por fim, a soma dos dois produtos fornece o montante da fatura a ser paga, como demonstra a imagem a seguir:  </p>
+                        <figure>
+                            <img src="assets/objetos/figura-4.png" class="img-fluid" alt="A imagem mostra um exemplo de uma conta de energia elétrica da empresa Neoenergia Pernambuco. Há os campos “dados do cliente, endereço e classificação”, além da data de vencimento de 30 de dezembro de 2019, o valor de R$ 235,08 e os dados de consumo de energia.">
+                            <figcaption class="d-print-none">
+                                Figura 4 – Conta de energia elétrica <br>
+                                Fonte: Neoenergia Pernambuco (s.d.) </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="container pt-4">
+                    <p>Segundo a conta de luz demonstrada na figura, o consumo dessa residência foi de 286 kWh. Esse número foi multiplicado pelo TE, cujo custo é de R$ 0,34189370, totalizando R$ 97,78. O consumo também foi multiplicado pelo TUSD, cujo custo é de R$ 0,48009528, totalizando R$ 137,30. A soma dos dois valores é o montante total da fatura, nesse caso, R$ 235,08.  </p>
+                    <div class="caixa icone saiba-mais">
+                        <p>Algumas empresas aglomeram as tarifas ou acrescentam outras cobranças, como iluminação pública e perdas no sistema. Os desvios de energia, também conhecidos como “gatos” na cultura popular, acabam sendo pagos por outras pessoas na categoria de perdas de energia. Essas irregularidades são um risco para a segurança das residências, pois são ligações ilegais, feitas sem segurança, correndo o risco de danificar equipamentos ou até causar um incêndio. </p>
+                    </div>
+                    <p>As tarifas podem variar de acordo com a bandeira de geração de energia. Conforme as condições de geração de energia elétrica no país, a bandeira pode ser:  </p>
+                    <p class="hidden-xs">Passe o mouse ou toque para acessar o conteúdo.</p>
+
+                    <div class="obj-lamp d-print-none">
+                        <button id="b-verde"></button>
+                        <button id="b-amarela"></button>
+                        <button id="b-vermelha-1"></button>
+                        <button id="b-vermelha-2"></button>
+                        <p class="verde">Condições favoráveis de geração de energia, sendo assim, não há cobrança. </p>
+                        <p class="amarela">Condições menos favoráveis de geração de energia, sendo cobrados RS 2,92 a cada 100 kWh. </p>
+                        <p class="vermelha">Condições desfavoráveis, sendo cobrados R$ 6,23 a cada 100 KWh.</p>
+                        <p class="vermelha-2">Condições muito desfavoráveis, sendo cobrados R$ 9,33 a cada 100 kWh. </p>
+                    </div>
+                    <div class="descricao-mobile">
+                        <div class="lamp"></div>
+                        <ul>
+                            <li><b>Bandeira Verde </b>- Condições favoráveis de geração de energia, sendo assim, não há cobrança.</li> 
+
+                            <li><b>Bandeira Amarela  </b>- Condições menos favoráveis de geração de energia, sendo cobrados RS 2,92 a cada 100 kWh.</li> 
+
+                            <li><b>Bandeira Vermelha  </b>- Condições não favoráveis, com dois patamares:
+                            <br><b>Bandeira Vermelha 1</b>: condições desfavoráveis, sendo cobrados R$ 6,23 a cada 100 KWh. 
+                            <br> <b>Bandeira Vermelha 2</b>: condições muito desfavoráveis, sendo cobrados R$ 9,33 a cada 100 kWh. 
+                        </li>
+                        </ul>
+                    </div>
+
+                    <div class="caixa icone dica">
+                        <p>Pesquise, na conta de energia de sua residência, como é efetuada a cobrança na sua região. Compare com os conceitos vistos até aqui. Pesquise as notícias sobre aumentos nas contas de energia. Essa dica de pesquisa não é avaliativa. </p>
+                    </div>
+                    <p>Você viu até aqui o funcionamento da energia em sua residência. Mas como ocorre a geração de energia elétrica no Brasil? É o que será visto em seguida. </p>
+                    <div class="btn-container d-print-none">
+                        <a class="nav-btn btn-inicial">Tela inicial</a>
+                        <a class="nav-btn avancar-2">3. O que é energia? ></a>
+                    </div>
+                </div>
+               
+
+                </div>
+                <div class="conteudo" id="conteudo-3">
+                    <div class="container">
+                        <!--Título do conteúdo-->
+                        <!--Conteúdo a partir daqui-->
+                      
+                        <div class="row">
+                            <div class="col-12">
+                                <h2>Afinal de contas, o que é energia?</h2>
+                                <p>
+                                    O termo <b>energia</b> remete sempre à eletricidade, porém os estudos anteriores mostram que não é apenas essa forma de energia que existe. Você aprendeu que existe a energia que vem dos alimentos (também conhecida como energia química), a cinética (energia que um objeto adquire por estar em movimento) e a energia térmica (energia oferecida aos alimentos ao cozinhá-los).  
+                                </p>
+                                
+                                <div class="caixa">
+                                    <p>De acordo com a famosa frase de Antoine-Laurent de Lavoisier, apresentada por Carlos Pianceli: “Na natureza, nada se cria, nada se perde, tudo se transforma”, toda energia pode ser transformada. Todas essas transformações podem ser usadas para gerar e transmitir energia elétrica. </p>
+                                </div>
+
+                                <p>A capacidade de converter outras formas de energia em <b>energia elétrica</b> mudou profundamente a sociedade. Seja o despertador usado para acordar de manhã ou os robôs das indústrias, todos eles dependem de eletricidade. Compreender a transição da energia e seu impacto no dia a dia proporciona uma reflexão sobre o uso consciente da eletricidade, a fim de desenvolver recomendações para geração, transmissão e distribuição de eletricidade favoráveis ​​ao desenvolvimento. </p>
+                                <p>Assista ao vídeo a seguir sobre a matriz energética no Brasil. </p>
+                                <iframe class="d-print-none" src="https://www.youtube.com/embed/Nfac4tBQ6yM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                <div class="sr-only">
+                                    <p>A demanda por energia elétrica tem sido cada vez maior com o passar dos anos. O principal motivo disso é o aumento do uso de equipamentos elétricos e eletrônicos, que tem gerado uma demanda maior de energia elétrica. </p>
+                                    <p>Matriz energética é o conjunto de fontes de energia ofertado no país para captação, distribuição e utilização de eletricidade nos setores comerciais, industriais e residenciais. </p>
+                                    <p>Em 2017, a matriz elétrica brasileira era composta de 65,2% de energia provida de fontes hidráulicas, ou seja, gerada por usinas hidrelétricas. Ao comparar nossa matriz elétrica com o resto do planeta, vemos que nosso percentual de uso de energia hidráulica equivale ao percentual de uso mundial de carvão, petróleo e gás natural para a geração de energia elétrica. </p>
+                                    <p>No Brasil, as fontes de energia são: energia hidráulica, com 65,5% de produção; biomassa, com 9,1%; energia eólica, com 8,8%; gás natural, com 8,3%; carvão e seus derivados, com 3,1%; energia nuclear, com 2,2%; derivados do petróleo, com 1,6%; e energia solar, com 1,7%. </p>
+                                    <p>Já a proporção mundial está distribuída em: carvão mineral, com 36,8%; gás natural, com 23,5%, hidráulica, com 16,1%; nuclear, com 10,2%; petróleo e derivados, com 2,8%; biomassa, com 2,4 %; e energias solar, eólica, geotérmica, de maré e outras fontes, totalizando em 8,2%. </p>
+                                    <p>Além de vermos a fonte de energia elétrica gerada no Brasil, podemos ver também onde ela é utilizada. </p>
+                                    <p>De acordo com o relatório da Empresa de Pesquisa Energética, a EPE, com base em dados coletados em 2020, o consumo de energia industrial foi de 35,4%; o de energia residencial foi de 31,53%; o de energia comercial foi de 17,56%; e outros destinos de consumo ficaram com 15,51%. </p>
+                                    <p>No mesmo relatório estão os dados sobre consumo de energia nas regiões geográficas do Brasil. A região Norte consome 0,03 milhão de gigawatts-hora de energia; a região Centro-Oeste, 0,04 milhão; a região Nordeste, 0,08 milhão; a região Sul, aproximadamente a mesma quantidade da região Nordeste; e a região Sudeste, 0,23 milhão de energia elétrica, metade da eletricidade produzida em todo o território nacional. </p>
+                                    <p>Apesar do fato de menos de um terço do consumo ser residencial, em tempos de crise todas as campanhas de uso consciente e de racionamento de energia se voltam ao consumidor comum. Mesmo assim, muitas empresas têm buscado fontes de energias alternativas, tanto para fins de economia como para fins de um menor impacto ambiental. </p>
+                                    <p>E você? Está fazendo sua parte para a economia de energia elétrica? </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="bloco estilo1">
+                        <div class="container">
+                            <!--Título do conteúdo-->
+                            <!--Conteúdo a partir daqui-->
+                          
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2>
+                                        Principais tipos de geração de energia no Brasil
+                                    </h2>
+                                    <h4>Usina hidrelétrica</h4>
+                                    <p>Uma usina hidrelétrica armazena <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="Energia de um corpo que está a uma determinada altura. Quanto maior a altura, maior a energia armazenada.">energia potencial gravitacional</a> por meio da gigantesca quantidade de água presente no reservatório. Para o reservatório existir, há a necessidade de represar o rio e/ou outros cursos-d'água. Porém o fluxo regular do rio é alterado ou, até mesmo, interrompido, fazendo com que a água inunde as áreas do entorno, formando um imenso lago artificial. Essa inundação causa grandes impactos ambientais e sociais. Espécies da fauna que vivem nas regiões inundadas precisam ser removidas de seus <em>habitats</em>, e a flora fica submersa na água, emitindo grandes quantidades de metano, gás carbônico e óxido nitroso. Há casos em que cidades inteiras são inundadas e as comunidades que viviam nessas regiões têm de ser realocadas, perdendo parte de sua memória e de suas raízes. Mesmo se tratando de uma energia renovável sem emitir diariamente os gases do efeito estufa, como em outras formas de geração de energia, as hidrelétricas têm seus impactos ambientais e sociais, principalmente em sua elaboração e construção. </p>
+                                    <p class="d-print-none">Clique ou toque para visualizar o conteúdo. </p>
+                                    <div class="modais-hidr d-print-none">
+                                        <button id="b-barragem" class="">
+                                            
+                                        </button>
+                                        <div class="obj-modal modal-barragem">
+                                            <p>Represa e armazena a água para a produção da energia elétrica. </p>
+                                            <button class="fechar">Fechar</button>
+                                        </div>
+                                        <button id="b-reservatorio" class="">
+                                            
+                                        </button>
+                                        <div class="obj-modal modal-reservatorio">
+                                            <p>O funcionamento começa pelo reservatório. Quanto mais cheio o reservatório estiver, mais energia potencial será capaz de se transformar em energia cinética.  </p>
+                                            <button class="fechar">Fechar</button>
+                                        </div>
+                                        <button id="b-turbina" class="">
+                                            
+                                        </button>
+                                        <div class="obj-modal modal-turbina">
+                                            <p>A turbina, que está acoplada ao gerador, gira devido à velocidade da vazão da água.  </p>
+                                            <button class="fechar">Fechar</button>
+                                        </div>
+                                        <button id="b-gerador" class="">
+                                            
+                                        </button>
+                                        <div class="obj-modal modal-gerador">
+                                            <p>O gerador movimenta os elétrons, criando uma corrente elétrica. Estes passam pelos transformadores. </p>
+                                            <button class="fechar">Fechar</button>
+                                        </div>
+                                        <button id="b-transformador" class="">
+                                            
+                                        </button>
+                                        <div class="obj-modal modal-transformador">
+                                            <p>O transformador aumentará a tensão de modo que a energia elétrica possa percorrer grandes distâncias.  </p>
+                                            <button class="fechar">Fechar</button>
+                                        </div>
+                                        <button id="b-transmissao" class="">
+                                            
+                                        </button>
+                                        <div class="obj-modal modal-transmissao">
+                                            <p>Todo esse processo permite que as linhas de transmissão possam realizar a distribuição em várias localidades.  </p>
+                                            <button class="fechar">Fechar</button>
+                                        </div>
+                                        <button id="b-condutores" class="">
+                                            
+                                        </button>
+                                        <div class="obj-modal modal-condutores">
+                                            <p>Para que a eletricidade chegue às residências, é necessário que ela siga o caminho através dos fios <a href="#" data-bs-toggle="tooltip" class="tooltip-link" data-bs-placement="bottom" title="Condutor é o nome dado a todo material que tem facilidade em transportar elétrons. Os principais condutores sãos os metais, tais como: cobre, alumínio e ferro. ">condutores</a>. </p>
+                                            <button class="fechar">Fechar</button>
+                                        </div>
+                                    </div>
+                                    <div class="descricao-mobile">
+                                        <img src="assets/objetos/ajustes/barragem-mobile.png" alt="" class="img-fluid d-print-none">
+                                        <img src="assets/objetos/ajustes/barragem-mobile.png" alt="" class="d-none d-print-block">
+                                        <br>
+                                        
+                                        <p><b>1. Barragem</b> - Represa e armazena a água para a produção da energia elétrica.</p>
+                                        <p><b>2. Reservatório</b> - O funcionamento começa pelo reservatório. Quanto mais cheio o reservatório estiver, mais energia potencial será capaz de se transformar em energia cinética.</p>
+                                        <p><b>3. Turbina</b> - A turbina, que está acoplada ao gerador, gira devido à velocidade da vazão da água.</p>
+                                        <p><b>4. Gerador</b> - O gerador movimenta os elétrons, criando uma corrente elétrica. Estes passam pelos transformadores.</p>
+                                        <p><b>5. Transformador</b> - O transformador aumentará a tensão de modo que a energia elétrica possa percorrer grandes distâncias.</p>
+                                        <p><b>6. Transmissão</b> - Represa e armazena a água para a produção da energia elétrica. </p>
+                                        <p><b>7. Fios condutores</b> - Para que a eletricidade chegue às residências, é necessário que ela siga o caminho através dos fios <a href="#" data-bs-toggle="tooltip" class="tooltip-link" data-bs-placement="bottom" title="Condutor é o nome dado a todo material que tem facilidade em transportar elétrons. Os principais condutores sãos os metais, tais como: cobre, alumínio e ferro. ">condutores</a>. </p>
+                                    </div>
+                                    <figcaption class="d-print-none">
+                                        Figura 5 – Esquema de funcionamento de uma usina hidrelétrica<br>
+                                        Fonte: Sesc EJA EAD (2022)
+                                    </figcaption>
+                                    <div class="caixa icone refletir">
+                                        <p>Você acha que todas as formas de geração de energia geram impacto no meio ambiente e/ou na sociedade? Na sua opinião, como seria possível diminuir os efeitos de uma futura construção de barragem de usina hidrelétrica em uma comunidade que vive às margens do rio? </p>
+                                    </div>
+                                    
+                                    
+                                    
+                        <p>Observe, a seguir, uma das maiores usinas hidrelétricas do mundo, a Itaipu: </p>
+    
+                        <figure>
+                            <img src="assets/objetos/figura-6.png" class="img-fluid" alt="Foto aérea da Usina Hidrelétrica de Itaipu. É possível ver a água represada ao centro, o rio Paraná no entorno e partes de vegetação nas laterais.">
+                            <figcaption class="d-print-none">
+                                Figura 6 – Usina de Itaipu <br>
+                                Fonte: Marinho (2020) 
+                            </figcaption>
+                        </figure>
+                        <p>A Usina Hidrelétrica de Itaipu fica localizada na divisa entre o Brasil e o Paraguai. Foi a maior represa até o ano de 2003, perdendo seu título para a Usina Hidrelétrica das Três Gargantas, na China.  </p>
+                        <p>Além dos impactos ambientais citados anteriormente, outro grande problema desse tipo de geração é a dependência das chuvas. Fenômenos climáticos, como o <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="Sua pronúncia é “el ninho”, que, em espanhol, significa “o menino”. É um fenômeno em que a temperatura do oceano Pacífico fica mais alta que a média, ocasionando variações de temperatura, volume e ocorrência de chuvas em diferentes regiões do mundo.">El niño</a>, por exemplo, afetam o volume de chuvas, que, por sua vez, afeta o volume de água armazenada, que, por fim, afeta a quantidade de energia elétrica produzida. Entre as soluções para manter a demanda está o aumento da tarifa, conforme mencionado anteriormente, além disso, a construção de novas usinas e o aumento do uso de outras fontes de energia, que será visto a seguir. </p>
+
+                        <div class="caixa icone pesquisar">
+                            <p>Pesquise sobre a Usina de Belo Monte e descubra qual será sua capacidade de geração de energia elétrica, bem como as notícias sobre os conflitos envolvendo as questões ambientais. </p>
+                        </div>
+        
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="parallax" id="parallax-2"><div class="opacidade"></div></div>
+                    </div>
+                    
+                    
+                        <div class="container">
+                            <h4>Usinas termelétricas</h4>
+                            <p>Conforme visto anteriormente, a água e os recursos hídricos, em geral, são necessários à geração de energia, principalmente ao se tratar do Brasil, onde 65,2% da fonte energética provêm de hidrelétricas. Porém, além de sua importância na geração de energia elétrica, a água também é essencial à vida do planeta como um todo, e sua escassez é um problema não só energético, mas global. A população e as cidades estão em constante crescimento, o que aumenta também a demanda de energia, como um círculo vicioso. Com isso, alternativas são buscadas em períodos de escassez de água, como as termelétricas. </p>
+                            <p class="d-print-none">Clique ou toque para visualizar o conteúdo.  </p>
+                            <button class="modal-btn-1" data-bs-toggle="modal" data-bs-target="#modal-1">
+
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Usinas Termelétricas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>As termelétricas são responsáveis pela maior parte da matriz energética mundial, e no Brasil representam em torno de 13%. </p>
+
+                                        <p>Uma usina termelétrica, como o nome propõe, gera energia elétrica a partir da energia térmica, que é o calor. Basicamente ela abrange todas as fontes que geram calor na produção. No Brasil, são principalmente o gás natural (8,3%) e derivados do petróleo (1,6%) e do carvão (3,1%). </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <p>Apesar de sua extrema importância, as usinas termelétricas têm um funcionamento simples.</p>
+                            <p class="d-print-none">Clique ou toque para visualizar o conteúdo.  </p>
+                            <div class="modais-term d-print-none">
+                                <button id="b-combustivel" class="">
+                                    
+                                </button>
+                                <div class="obj-modal modal-combustivel">
+                                    <p>A partir da queima de um combustível, como gás, petróleo ou carvão, ocorre o aquecimento de um fluido, como a água, por exemplo. </p>
+                                    <button class="fechar">Fechar</button>
+                                </div>
+                                <button id="b-caldeira" class="">
+                                    
+                                </button>
+                                <div class="obj-modal modal-caldeira">
+                                    <p>A água é aquecida até entrar em ebulição, ferver, em uma caldeira. </p>
+                                    <button class="fechar">Fechar</button>
+                                </div>
+                                <button id="b-vapor" class="">
+                                    
+                                </button>
+                                <div class="obj-modal modal-vapor">
+                                    <p>Com o aquecimento do fluido até a ebulição, ocorre a mudança de fase desse líquido, que passa de líquido para gasoso. Nessa mudança de fase, seu volume aumenta muito, sendo aproveitado como em uma panela de pressão. </p>
+                                    <button class="fechar">Fechar</button>
+                                </div>
+                                <button id="b-turbina-2" class="">
+                                    
+                                </button>
+                                <div class="obj-modal modal-turbina-2">
+                                    <p>A pressão do vapor-d’água movimenta as turbinas. Esse sistema é chamado de <b>máquina térmica</b>, ou seja, uma máquina capaz de transformar a energia térmica da queima do combustível em trabalho realizado para mover a turbina (como locomotivas e navios movidos a vapor). </p>
+                                    <button class="fechar">Fechar</button>
+                                </div>
+                                <button id="b-gerador-2" class="">
+                                    
+                                </button>
+                                <div class="obj-modal modal-gerador-2">
+                                    <p> A turbina é acoplada a um gerador, que converte a energia mecânica em elétrica.  </p>
+                                    <button class="fechar">Fechar</button>
+                                </div>
+                            </div>
+                            <div class="descricao-mobile">
+                                <img src="assets/objetos/ajustes/termeletrica-mobile.png" alt="" class="img-fluid d-print-none">
+                                <img src="assets/objetos/ajustes/termeletrica-mobile.png" alt="" class="d-none d-print-block">
+                                <p><b>1. Combustível</b> - A partir da queima de um combustível, como gás, petróleo ou carvão, ocorre o aquecimento de um fluido, como a água, por exemplo. </p>
+                                <p><b>2. Caldeira</b> - A água é aquecida até entrar em ebulição, ferver, em uma caldeira. </p>
+                                <p><b>3. Vapor d'água</b> - Com o aquecimento do fluido até a ebulição, ocorre a mudança de fase desse líquido, que passa de líquido para gasoso. Nessa mudança de fase, seu volume aumenta muito, sendo aproveitado como em uma panela de pressão. </p>
+                                <p><b>4. Turbina</b> - A pressão do vapor-d’água movimenta as turbinas. Esse sistema é chamado de <b>máquina térmica</b>, ou seja, uma máquina capaz de transformar a energia térmica da queima do combustível em trabalho realizado para mover a turbina (como locomotivas e navios movidos a vapor). </p>
+                                <p><b>5. Gerador</b> -  A turbina é acoplada a um gerador, que converte a energia mecânica em elétrica.  </p>
+                            </div>
+                            <div class="caixa icone saiba-mais">
+                                <p>Assim como as hidrelétricas utilizam a energia potencial gravitacional da água para mover as turbinas dos geradores, as usinas termelétricas utilizam o calor da queima de combustível para o mesmo fim. Porém uma grande diferença entre as duas é o custo de produção. As hidrelétricas utilizam a energia da água represada e as termelétricas necessitam ser constantemente alimentadas com combustível, o que gera um custo constante. </p>
+                            </div>
+                        </div>
+                    
+                    <div class="bloco estilo1">
+                        <div class="container">
+                
+    
+                            
+                            <p>Além de ser mais cara de produzir, a energia das termelétricas também é muito mais prejudicial ao meio ambiente. Enquanto as usinas hidrelétricas têm um impacto imediato com a inundação do reservatório (lago) e realocação da biodiversidade, o impacto das termelétricas é permanente, com a liberação de gases a partir da combustão, principalmente o gás carbônico (CO2), que é o principal causador do efeito estufa e da poluição da atmosfera terrestre. </p>
+                            <p>Assista ao vídeo para saber mais sobre o efeito estufa. </p>
+                            <iframe class="d-print-none" src="https://www.youtube.com/embed/TqHiCBiL0jU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+                            <div class="sr-only">
+                                <p>Você já deve ter ouvido falar de aquecimento global, não é mesmo?</p>   
+
+                                <p>Bom, o aquecimento global decorre principalmente do efeito estufa, que é um fenômeno natural causado pela concentração de gases na atmosfera terrestre. Esses gases criam uma camada que permite a passagem de luz e calor solar.</p>   
+
+                                <p>É esse processo que garante a temperatura que temos em nosso planeta e que permitiu a existência da vida como conhecemos. Sem esse processo, o nosso planeta seria extremamente frio e não poderia comportar vida. Porém, a emissão de gases poluentes, como o dióxido de carbono, o CO2, tem gerado um aumento do efeito estufa, causando assim o aquecimento global acelerado.</p> 
+                                <p>A Ember Climate, organização não governamental que estuda a emissão de gases na produção de energia elétrica, estimou a quantidade de CO2, em gramas, emitida por cada fonte para gerar a mesma quantidade de energia. </p>
+                                <p>Segundo a organização, as fontes hídricas geram 24 gramas de CO2, enquanto o gás natural gera 490 gramas, os derivados do petróleo geram 700 gramas e o carvão, o mais poluente, gera 820 gramas, todos emitidos para a atmosfera. Isso quer dizer que as usinas termelétricas são muito mais poluentes que as hidrelétricas. </p>
+                                <p>Por isso, na Conferência das Nações Unidas sobre Mudança do Clima, a COP26, realizada em 2021 em Glasgow, na Escócia, o Brasil, com mais 40 países, assumiu o compromisso de eliminar o uso da energia a carvão até o ano de 2040. </p>
+                                <p>A ideia não é só reduzir a emissão dos gases danosos emitidos por essas fontes, mas também substituir totalmente essas fontes energéticas por fontes limpas, que geram um menor impacto ambiental, como a energia solar e a eólica. </p>
+                            </div>
+
+                            <div class="caixa icone pesquisar">
+                                <p>Pesquise quais medidas podem ser tomadas para a substituição de fontes poluidoras na geração de eletricidade. Pesquise também notícias sobre os movimentos do governo brasileiro e de outros países para diminuir o uso de fontes de energia que causam poluição. Esta proposta não é avaliativa. </p>
+                            </div>
+                            
+                        </div>
+                        <div class="parallax" id="parallax-6"><div class="opacidade"></div></div>
+                    </div>
+                    
+                        <div class="container">
+                            <!--Título do conteúdo-->
+                            <!--Conteúdo a partir daqui-->
+                          
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2>Energias renováveis</h2>
+                                    <p>Retomando as principais gerações de energia até aqui, compreendemos o funcionamento de hidrelétricas e termelétricas. A primeira, além de causar um impacto ambiental gigantesco na sua construção e inundação de barragem, possui uma grande dependência de fatores climáticos e naturais, como chuvas e cursos de rio. Já a segunda, a termelétrica, emite poluentes e custam muito caro para seu funcionamento e para o ambiente a longo prazo. Neste dilema, em que as demandas de energia só aumentam, é preciso buscar novas fontes de energia. As emergentes, são as fontes de energia renováveis, que representam aquelas com menor impacto ambiental e que se regeneram a curto e médio prazo. Quando pesquisamos energias renováveis, dois ramos são muito emergentes no Brasil, energia eólica e solar. </p>
+    
+                                    <p>Neste dilema, em que as demandas de energia só aumentam, é preciso buscar novas fontes de energia. As emergentes são as fontes de energia renováveis, que representam aquelas com menor impacto ambiental e que se regeneram a curto e médio prazo. Na pesquisa de energias renováveis, dois ramos são emergentes no Brasil: energia eólica e solar. </p>
+                                    
+                                    <p class="d-print-none">Clique ou toque para visualizar o conteúdo.</p>
+                        <div class="obj-tipos">
+                            <button id="b-eolica" type="button" data-bs-toggle="modal" data-bs-target="#modal-eolica">
+                                
+                            </button>
+                            <button id="b-solar-1" type="button" data-bs-toggle="modal" data-bs-target="#modal-solar-1">
+                                
+                            </button>
+                            <button id="b-solar-2" type="button" data-bs-toggle="modal" data-bs-target="#modal-solar-2">
+                                
+                            </button>
+                        </div>
+
+                        <div class="descricao-mobile">
+                            <img class="img-fluid" src="assets/objetos/imagens/layout_EJA_ilustra_tipos_de_energia.png" alt="">
+                            <div class="btns">
+                                <button class="btn-sesc" type="button" data-bs-toggle="modal" data-bs-target="#modal-eolica">
+                                    Energia Eólica
+                                </button>
+                                <button class="btn-sesc" type="button" data-bs-toggle="modal" data-bs-target="#modal-solar-1">
+                                    Energia Solar (Fotovoltaica e calor)
+                                </button>
+                                <button class="btn-sesc" type="button" data-bs-toggle="modal" data-bs-target="#modal-solar-2">
+                                    Energia Solar (Aquecimento)
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="modal-eolica" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="false">
+                            <div class="modal-dialog modal-fullscreen" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Energia eólica</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <p>A geração eólica se dá pela transformação da energia cinética dos ventos em energia elétrica. Os ventos movimentam pás gigantescas acopladas a um gerador. O restante do processo acontece de maneira similar às hidrelétricas. Seu impacto ambiental é menor, porém necessita de estudos específicos para sua alocação. A construção de parques eólicos, com múltiplos geradores, exige que a região seja provida de um vento constante e moderado, para que seja economicamente viável. </p>
+                                            
+                                            <figure>
+                                                <img src="assets/objetos/figura-7.png" class="img-fluid" alt="Fotografia de uma sequência de torres eólicas para captação do fluxo de ventos. Estão instaladas no alto de um morro, com o céu no horizonte.">
+                                                <figcaption class="d-print-none">
+                                                    Figura 7 – Torres eólicas de geração de energia elétrica <br>
+                                                    Fonte: Guitarrara (s.d.) 
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal-solar-1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="false">
+                            <div class="modal-dialog modal-fullscreen" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Energia solar (fotovoltaica e calor)</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <p>Em relação à energia solar, pode-se dizer que o Brasil é um país privilegiado, pois sua área tem uma excelente incidência de irradiação durante o ano todo. Diferentemente dos processos anteriores, em que a transformação de energia tem a área mecânica como principal foco, o aproveitamento da luz solar pode ser dividido de duas maneiras - fotovoltaica ou calor.</p> 
+
+                                            <p>A implantação dos sistemas solares residenciais é um dos setores energéticos que mais cresce no Brasil, devido ao custo-benefício a longo prazo. A geração de energia elétrica está atrelada diretamente a um dos físicos mais famosos da história, Albert Einstein, e seus estudos sobre o efeito fotoelétrico. Quando a luz em forma de partícula, chamada de <b>fóton</b>, atinge metais e semimetais, ela transfere sua energia para <b>elétrons</b>, que são ejetados, criando uma corrente elétrica contínua. </p> 
+                                            <p>Observe o funcionamento da energia solar em uma residência a seguir: </p>
+                                            <p class="d-print-none">Clique ou toque nos botões numerados para visualizar o conteúdo.</p>
+                                            <div class="obj-solar">
+                                                <button id="solar-1" data-bs-toggle="tooltip" class="tooltip-link" title="O painel solar gera a energia solar fotovoltaica" data-bs-trigger="focus"></button>
+                                                <button id="solar-2" data-bs-toggle="tooltip" class="tooltip-link" title="O inversor solar converte a energia solar para a residência ou empresa " data-bs-trigger="focus"></button>
+                                                <button id="solar-3" data-bs-toggle="tooltip" class="tooltip-link" title="A energia solar é distribuída para a residência ou empresa " data-bs-trigger="focus"></button>
+                                                <button id="solar-4" data-bs-toggle="tooltip" class="tooltip-link" title="A energia solar é usada por utensílios e equipamentos elétricos " data-bs-trigger="focus"></button>
+                                                <button id="solar-5" data-bs-toggle="tooltip" class="tooltip-link" title="O excesso de energia vai para a rede da distribuidora gerando créditos " data-bs-trigger="focus"></button>
+                                            </div>
+                                            <p class="sr-only">Figura de uma residência com sistema de energia fotovoltaica. No telhado, onde há as placas, tem o número 1. No equipamento chamado inversor, tem o número 2. Mais abaixo, está o quadro de distribuição, com o número 3. O número 4 está fixado nos cômodos da casa. Por fim, o número 5 se encontra no poste de medição.<br>
+                                                1: O painel solar gera a energia solar fotovoltaica<br>
+                                                2: O inversor solar converte a energia solar para a residência ou empresa <br>
+                                                3: A energia solar é distribuída para a residência ou empresa <br>
+                                                4: A energia solar é usada por utensílios e equipamentos elétricos <br>
+                                                5: O excesso de energia vai para a rede da distribuidora gerando créditos 
+                                            </p>
+
+                                            <figure>
+                                                
+                                                <figcaption class="d-print-none">
+                                                    Figura 8 – Esquema de funcionamento de um sistema de energia fotovoltaica <br>
+                                                    Fonte: Adaptado de Portal Solar (s.d.) 
+                                                </figcaption>
+                                            </figure>
+                                            <div class="sr-only">
+                                                <ol>
+                                                    <li>O painel solar gera a energia solar fotovoltaica</li> 
+
+                                                    <li>O inversor solar converte a energia solar para a residência ou empresa</li> 
+                                                
+                                                    <li>A energia solar é distribuída para a residência ou empresa</li> 
+                                                
+                                                    <li>A energia solar é usada por utensílios e equipamentos elétricos</li> 
+                                                
+                                                    <li>O excesso de energia vai para a rede da distribuidora gerando créditos</li> 
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal-solar-2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="false">
+                            <div class="modal-dialog modal-fullscreen" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Energia solar (aquecimento)</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <p>Em relação ao uso de energia elétrica, aquecer produtos e equipamentos são os principais vilões do consumo. O aquecimento solar é muito utilizado na rede hoteleira e no ramo de restaurantes, onde o consumo de água quente é extremo, mas o uso residencial vem crescendo tanto quanto a geração elétrica. Esse tipo de condução de calor é chamado de <b>irradiação</b>, em que a energia térmica, também chamada de <b>calor</b>, é transmitida através de ondas eletromagnéticas vindas do sol, principalmente infravermelho. Raios X, ultravioleta, micro-ondas e rádio são também ondas da mesma natureza. Sentimos o calor do sol mesmo este estando a cerca de 150 milhões de quilômetros. </p>
+                                            <p class="d-print-none">Clique ou toque para visualizar o conteúdo.  </p>
+                                            <div class="accordion painel-gaitinha" id="accordionExample4">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingOne4">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+                                                            Condução térmica 
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseOne4" class="accordion-collapse collapse show" aria-labelledby="headingOne4" data-bs-parent="#accordionExample4">
+                                                        <div class="accordion-body">
+                                                            Quando as moléculas transferem energia por meio de colisões, são chamadas de <b>condução térmica</b>. Ocorre em fluidos, mas, majoritariamente, em sólidos. Cada material tem mais ou menos facilidade de transportar energia térmica. Metais, por exemplo, conduzem mais facilmente o calor, se enquadrando na categoria de <em>bons condutores</em>. Já outros materiais, por serem maus condutores, são chamados de <em>isolantes térmicos</em>.  São exemplos práticos: encostar a mão em um objeto quente, ocorrendo uma queimadura, ou utilizar o isopor para manter uma bebida em temperaturas baixas. 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingTwo4">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo4" aria-expanded="false" aria-controls="collapseTwo4">
+                                                            Convecção 
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseTwo4" class="accordion-collapse collapse" aria-labelledby="headingTwo4" data-bs-parent="#accordionExample4">
+                                                        <div class="accordion-body">
+                                                            O processo de transmissão de calor é chamado de <b>convecção</b>. Ocorre somente em líquidos e gases, tendo como característica a ascensão vertical das partículas mais quentes. Esse processo pode ser observado no aquecimento de água no fogão ou na fumaça de uma fogueira que sobe pela atmosfera. 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <p>Retomando o conteúdo, no funcionamento da energia solar térmica, as placas absorvem a luz solar (<b>irradiação</b>), que, em contato com a água (<b>condução térmica</b>) em seu interior, a aquece. Após a passagem por esse sistema, o líquido aquecido é armazenado em um reservatório térmico que fica acima das placas (<b>convecção</b>) para uso posterior.  </p>
+                                            <p>Observe o esquema do sistema de aquecimento de água através da energia solar. </p>
+                                            <img class="gif-boiler" src="assets/objetos/gifs/boiler.gif" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-container d-print-none">
+                            <a class="nav-btn btn-inicial">Tela inicial</a>
+                            <a class="nav-btn avancar-5">4. Recapitulando ></a>
+                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="conteudo" id="conteudo-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2>Recapitulando</h2>
+                                <p>Os estudos até aqui trouxeram diversas reflexões em relação à maneira como a energia permeia a sociedade. É possível concluir que a utilização da energia elétrica e a dependência dela modificaram o estilo de vida e o ambiente natural.  </p>
+                                <p>A energia elétrica que chega às casas e aos eletroeletrônicos pode percorrer vários caminhos, e conhecer esses caminhos oferece ferramentas para o entendimento do mundo ao redor, permitindo movimentar-se de maneira consciente por ele. Ao compreender o funcionamento da energia na sua residência, você obtém ferramentas para a economia desse recurso e reduz sua despesa financeira. Além do seu papel na sociedade para a preservação da natureza e da biodiversidade, há o dever com os descendentes em relação à qualidade de vida das gerações futuras. É preciso também entender e pensar quem são os maiores consumidores de energia, promovendo políticas de fiscalização em setores, como: indústria, comércio e agronegócio.  </p>
+
+                                <figure>
+                                    <img src="assets/objetos/figura-9.png" class="img-fluid" alt="Ilustração de uma lâmpada amarela com um globo terrestre no seu centro. O globo tem continentes e vegetação, plantas e árvores na cor verde, ao seu redor. Em torno da lâmpada, há duas mãos, uma em cima e outra embaixo.">
+                                    <figcaption class="d-print-none">
+                                        Figura 9 – Energia sustentável <br>
+                                        Fonte: Sesc EJA EAD (2022)
+                                    </figcaption>
+                                </figure>
+                                <p>De acordo com o estudado, tanto a <b>produção</b> quanto o <b>consumo</b> da energia elétrica têm trajetórias diferentes, algumas ambientalmente mais saudáveis, chamadas de <em>sustentáveis</em>, e outras nem tanto, mas mesmo a geração de eletricidade de forma <em>sustentável</em> tem seus impactos ambientais. Vejamos que até mesmo a produção de energia dos ventos pode trazer prejuízos, assim como a energia do sol também oferece efeitos à natureza. </p>
+                                <p>Com base no que você estudou sobre esses dois tipos de produção de energia mais sustentáveis, reflita e veja se você identifica os impactos que eles podem trazer ao meio ambiente.</p>
+                               
+                               
+
+                                <div class="cards">
+                                    <div class="modal-inicio">
+                                        <p>Associe as cartas com os tipos de produção de energia e seus respectivos possíveis danos ao meio ambiente.</p>
+                                        <button id="cards-iniciar">Iniciar</button>
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="card energia-sol">
+                                            <div class="inner-card">
+                                                <div class="card-front">
+                                                    
+                                                </div>
+                                                <div class="card-back">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card problema-sol">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back">
+                                                    <p>Extração e tratamento da matéria-prima das placas</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card problema-vento">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back">
+                                                    <p>Mudança nas rotas dos animais silvestres (por terra e ar)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card energia-sol">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back"></div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="card-row">                                        
+                                        <div class="card problema-vento">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back">
+                                                    <p>Mudança no solo e vegetação ao fixar a base das hélices</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card energia-vento">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card energia-vento">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card problema-sol">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back">
+                                                    <p>Quantidade grande de sombras que sua instalação produz no solo e nos ecossistemas vizinhos </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="card energia-sol">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back"></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="card problema-sol">                                            
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back">
+                                                    <p>Alteração da vegetação no entorno das usinas (grandes campos de placas) </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card energia-vento">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card problema-sol">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back">
+                                                    <p>Gasto de outras energias para produzir as placas </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="card problema-vento">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back">
+                                                    <p>Construção e transporte das usinas (grandes ventiladores)  </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card energia-sol">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card energia-vento">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card problema-vento">
+                                            <div class="inner-card">
+                                                <div class="card-front"></div>
+                                                <div class="card-back">
+                                                    <p>Mudança nas fontes de água de comunidades vizinhas </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cards-mobile">
+                                    <div class="card-1-m"></div>
+                                    <div class="card-2-m"></div>
+                                </div>
+
+                                <div class="caixa icone pesquisar">
+                                    <p>Você pode pesquisar um documentário que fala sobre a cartografia social e energia eólica no litoral oeste do Ceará, por exemplo.  </p>
+                                </div>
+
+                                <img class="avatar" src="assets/objetos/imagens/layout_EJA_pessoa_pensando_2.png" alt="">
+                                <h4 class="avatar-t">Mas no final das contas, qual seria a melhor geração de energia elétrica? </h4>
+                                <p>A resposta a essa pergunta talvez ainda não exista, entretanto, a ciência e a tecnologia continuam avançando e podem descobrir novas fontes. Portanto é preciso incentivar e investir em:  </p>
+                                
+                                <div class="infografico">
+                                    <ul>
+                                        <li>Pesquisa científica</l> 
+
+                                        <li>Melhores processos de geração elétrica</l> 
+                                    
+                                        <li>Equipamentos mais eficientes</l> 
+                                    
+                                        <li>Cultura de consumo consciente</l> 
+                                    
+                                        <li>Apoio de órgãos governamentais ou da iniciativa privada</l> 
+                                    
+                                        <li>Resultados benéficos para toda a sociedade</l> 
+                                    </ul>
+                                </div>
+
+                                <p>A lógica do <b>consumo</b> sem limites de energia pode ser o grande problema da sociedade. Mais do que escolher a maneira “certa” de consumir, é preciso questionar o estilo de vida que leva a esse consumo desenfreado. Entender outras formas de gerenciar, produzir e consumir energia elétrica, respeitando os espaços e os ciclos naturais, pode ser um próximo passo nessa reflexão. As ciências da natureza trazem a importância da geração de energia a partir de um ponto, mas essa problematização vem de vários lugares diferentes. É possível organizar o conhecimento para tratar dessa questão de forma mais abrangente? Essas reflexões visam incentivar um olhar mais atento aos modos de produção e consumo de energia. </p>
+                                <h4>Não se esqueça de apagar a luz ao sair! </h4>
+                                <p class="d-print-none">Clique ou toque para apagar a luz e economizar energia.</p>
+                                <div class="obj-luz ativo d-print-none">
+
+                                </div>
+                                <div class="btn-container d-print-none d-print-none">
+                                    <a class="nav-btn btn-inicial">Tela inicial</a>
+                                    <a class="nav-btn avancar-6">5. Referências ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteudo" id="conteudo-7">
+                    <div class="container">
+                        <h2>Referências</h2>
+                        <p>AMATO, Fábio. Escassez de chuva leva ao maior uso de energia termelétrica em janeiro desde 2015, aponta ONS. <b>G1</b>, 13 mar. 2021. Disponível em: https://g1.globo.com/economia/noticia/2021/03/13/escassez-de-chuva-leva-ao-maior-uso-de-energia-termeletrica-em-janeiro-desde-2015-aponta-ons.ghtml. Acesso em: 4 maio 2022.</p>   
+    
+                        <p>CAMPOS, M. A. M.; JARDIM, W. F. <b>Aspectos relevantes da biogeoquímica da hidrosfera</b>. Cadernos Temáticos de Química Nova na Escola, n. 5, p. 18-27, nov. 2003.</p>   
+    
+                        <p>CAVALCANTE, Kleber G. Aquecimento da água por energia solar. <b>Brasil Escola</b>, c2022. Disponível em: https://brasilescola.uol.com.br/fisica/aquecimento-agua-por-energia-solar.htm. Acesso em: 25 abr. 2022.</p>   
+    
+                        <p>COMO funciona a energia solar. <b>Portal Solar</b>, c2014-2022. Disponível em: https://www.portalsolar.com.br/como-funciona-energia-solar.html. Acesso em: 25 abr. 2022.</p>   
+    
+                        <p>CONHEÇA sua conta. <b>Neoenergia Pernambuco</b>, [s.d.]. Disponível em: https://servicos.neoenergiapernambuco.com.br/residencial-rural/Pages/Baixa%20Tens%C3%A3o/conheca-sua-conta.aspx. Acesso em: 20 abr. 2022.</p>   
+    
+                        <p>GRANDEZAS, potência e energia elétrica. <b>Blog Explicaê</b>, 19 jul. 2021. Disponível em: https://blog.explicae.com.br/enem/grandezas-potencia-e-energia-eletrica. Acesso em: 17 maio 2022.</p>   
+    
+                        <p>GUITARRARA, Paloma. Energia eólica. <b>Brasil Escola</b>, c2022. Disponível em: https://brasilescola.uol.com.br/fisica/energia-eolica.htm. Acesso em: 25 abr. 2022.</p>   
+    
+                        <p>HEWITT, P. Indução magnética. <em>In</em>: HEWITT, P. <b>Física conceitual</b>. 9. ed. Porto Alegre: Bookman, 2002.</p>    
+    
+                        <p>LABOCART UFC. Cartografia social e energia eólica no litoral oeste do Ceará. Youtube, 16 set. 2016. Disponível em: https://www.youtube.com/watch?v=r5aI64SMTkE. Acesso em: 25 abr. 2022.</p>    
+    
+                        <p>LEROY, Jean-Pierre. O impacto sobre o meio ambiente. <b>Le Monde Diplomatique Brasil</b>, 4 jul. 2008. Edição 12. Disponível em: https://diplomatique.org.br/o-impacto-sobre-o-meio-ambiente/. Acesso em: 24 abr. 2022.</p>    
+    
+                        <p>MARINHO, Flavia. Usina Hidrelétrica de Itaipu, a maior geradora de energia limpa e renovável do planeta bate recorde histórico de produtividade. <b>Click Petróleo e Gás</b>, 23 set. 2020. Disponível em: https://clickpetroleoegas.com.br/usina-hidreletrica-de-itaipu-a-maior-geradora-de-energia-limpa-e-renovavel-do-planeta-bate-recorde-historico-de-produtividade/. Acesso em: 25 abr. 2022.</p>   
+    
+                        <p>NASCIMENTO, Hércules. Os impactos ambientais e sociais da produção de energia eólica. <b>Labocart UFC</b>, 11 nov. 2019. Disponível em: http://www.labocart.ufc.br/?p=650. Acesso em: 24 abr. 2022.</p>    
+    
+                        <p>PACCA, J. <em>et al</em>. <b>Corrente elétrica e circuito elétrico</b>: algumas concepções do senso comum. Caderno Brasileiro de Ensino de Física, Florianópolis, v. 20, n. 2, p. 151-167, ago. 2003.</p>    
+    
+                        <p>PERSONAGENS. Biblioteca FEM/UNICAMP. <b>Faculdade de Engenharia Mecânica</b>, [s.d.]. Disponível em: http://www.fem.unicamp.br/~em313/paginas/person.htm. Acesso em: 4 abr. 2022.</p>    
+    
+                        <p>SERMARINI, Ana Carolina. Os impactos ambientais negativos da energia solar que nunca te contaram. <b>Revolusolar</b>, 13 maio 200. Disponível em: https://revolusolar.org.br/os-impactos-ambientais-negativos-da-energia-solar-que-nunca-te-contaram/. Acesso em: 24 abr. 2022.</p>    
+    
+                        <p>TAGLIANI, Simone. Como a energia elétrica dos postes de rua chega às tomadas da sua casa? <b>Engenharia 360</b>, [s.d.]. Disponível em: https://engenharia360.com/como-a-energia-eletrica-chega-nas-tomadas-da-casa/. Acesso em: 26 abr. 2022.</p>   
+    
+                        <p>YOUNG, H.; FREEDMAN, R. <b>Física III</b>: Eletromagnetismo. 12. ed. São Paulo: Addison Wesley, 2008.</p>
+                        <div class="btn-container">
+                            <a class="nav-btn btn-inicial">Tela inicial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Paginação do print-->
+        <footer class="text-center d-print-none container">
+            <ul class="pagination">
+
+            </ul>
+        </footer>
+    </section>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!--Jquery-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- print legado dos técnicos -->
+    <!-- descomentar essa linha caso queira um print.css e um leitor.css exclusivo para o conteudo ao usar o botao imprimir-->
+    <!--
+    <script>
+        var custom_print_path = 'assets/css/';
+        var custom_leitor_path = 'assets/css/';
+    </script>    
+    -->
+    <script src="assets/print/print.js"></script>
+    <script src="assets/print/template.config.js"></script>
+
+    <script src="assets/js/audio-player.js"></script>
+    <script src="assets/interativos/esquema_bru/esquema-bru.js"></script>
+    <script src="assets/js/geral.js"></script>
+    <script src="assets/js/rellax.min.js"></script>
+    <script src="assets/script.js"></script>
+   <script>
+       const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip" class="tooltip-link"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+   </script>
+   <script>
+        // Adding horizantal parallax scrolling
+        var rellax = new Rellax('.rellax', {
+          // Activate horizantal scrolling
+          // Turned off by default
+          horizontal: false,
+          //Deactivate vertical scrolling
+          vertical: true
+        });
+      </script>
+    <!-- Versao atual do handtalk -->
+    <script>
+        var scriptElem = document.createElement("script");
+        scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset = "UTF-8",
+            scriptElem.onload = function () {
+                window.ht = new HT({
+                    token: "bf5b7efb148a829a126a0e0c9fd533bf",
+                    align: "top",
+                    videoEnabled: true,
+                    ytEmbedReplace: true,
+                    mobileConfig: {
+                        align: "right",
+                        actionsAlign: "top",
+                        customButtonStyle: {
+                            borderRadius: "6px",
+                            size: "38px",
+                            horizontalMargin: "13px",
+                            bottomMargin: "140px",
+                            rightMargin: "40px"
+                        }
+                    }
+                });
+                $('.ht-skip').attr("aria-hidden", "true")
+            },
+            document.body.appendChild(scriptElem);
+    </script>
+</body>
+
+</html>
